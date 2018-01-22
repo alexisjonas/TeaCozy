@@ -56,14 +56,17 @@ body {
   align-items: center;
 }
 
-.mission-statement.image-content {
+.mission{
+  padding-top: 70px;
   height: 700px;
   width: 1200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
-.title {
+.mission .title {
   background-color: black;
+  width: 100%;
+  
 }
 
 /*tea of the month */
