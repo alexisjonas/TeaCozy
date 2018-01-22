@@ -50,12 +50,23 @@ body {
 /* our mission section */
 .mission-statement {
   display: flex;
-  height: 700px;
-  width: 1200px;
   align-items: center;
 }
-
+.mission-statement.image-content {
+  height: 700px;
+  width: 1200px;
+}
 .title {
   background-color: black;
+}
 
+/*tea of the month */
+
+.images {
+  height: 200px;
+  width: 300px;
+}
+.title {
+  margin-top: 0;
+  padding-top: 10px;
 }
