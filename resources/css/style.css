@@ -55,7 +55,7 @@ h2, h3, h4 {
 }
 /* our mission section */
 
-.mission {
+#mission {
   display: flex;
   height: 700px;
   width: 1200px;
@@ -72,10 +72,8 @@ h2, h3, h4 {
 }
 
 /*tea of the month */
-.teaofthemonth {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+#teaofthemonth {
+  margin: auto;
   height: 700px;
   width: 1000px;
   padding-top: 70px;
@@ -93,7 +91,6 @@ h2, h3, h4 {
 
 .tea img {
   height: 200px;
-  width: 300px;
   display: block;
   margin: 10px;
 }
@@ -109,13 +106,13 @@ h2, h3, h4 {
 
 #locations {
   height: 500px;
-  width: 1100px;
-  padding-top: 60px;
+  padding-top: 70px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
 
 #locations .info {
   width: 1100px;
+  margin: auto;
 }
 
 .info .addresses {
@@ -135,15 +132,11 @@ h2, h3, h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-basis: 280;
+  flex-basis: 280px;
 }
 
-.contact-info {
+#contact-info {
   height: 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* footer */
