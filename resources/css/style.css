@@ -72,12 +72,15 @@ h2, h3, h4 {
   width: 100%;
   text-align: center;
   margin: auto;
+  height: 80px;
 }
 
 /*tea of the month */
 #teaofthemonth {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
   margin: auto;
   height: 700px;
   width: 1000px;
@@ -149,6 +152,7 @@ h2, h3, h4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 /* footer */
