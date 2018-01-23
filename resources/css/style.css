@@ -67,6 +67,8 @@ align-items: center;
 .mission .title {
   background-color: black;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*tea of the month */
@@ -103,6 +105,8 @@ align-items: center;
 /* adresses */
 
 .locations {
+  display: flex;
+  justify-content: center;
   height: 500px;
   width: 1100px;
   padding-top: 60px;
@@ -127,6 +131,9 @@ align-items: center;
 
 .contact-info {
   height: 200px;
+  display: flex;
+  justify-content: center;
+
 }
 
 /* footer */
