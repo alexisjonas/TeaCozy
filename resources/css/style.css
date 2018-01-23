@@ -47,18 +47,20 @@ body {
 padding-top: 100px;
 opacity: 0.9;
 width: 1200px;
-display: flex;
-flex-direction: column;
-align-items: center;
+margin: auto;
 }
 
+h2, h3, h4 {
+  padding: 10px;
+}
 /* our mission section */
 
 .mission {
   display: flex;
   height: 700px;
   width: 1200px;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
@@ -66,6 +68,7 @@ align-items: center;
   background-color: black;
   width: 100%;
   text-align: center;
+  margin: auto;
 }
 
 /*tea of the month */
@@ -104,19 +107,24 @@ align-items: center;
 
 /* adresses */
 
-.locations {
-  display: flex;
-  align-items: center;
+#locations {
   height: 500px;
   width: 1100px;
   padding-top: 60px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
 
-.locations .info {
+#locations .info {
+  width: 1100px;
+}
+
+.info .addresses {
+  padding-top: 5px;
+}
+
+.info {
   display: flex;
   justify-content: center;
-  padding-top: 5px;
   flex-wrap: wrap;
 }
 .addresses {
@@ -127,6 +135,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-basis: 280;
 }
 
 .contact-info {
@@ -134,8 +143,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-
+  align-items: center;
 }
 
 /* footer */
